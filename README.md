@@ -28,4 +28,6 @@ analyze_log.sh reads transit_session.log (or the file given as the first argumen
 5. When the trip ends, run `bash analyze_log.sh`.
 
 ## Problems I ran into
-(Write two or three lines about a real bug you hit while testing. Use your own experience.)
+When I first tried to run the program, I typed python3 road_simulation.py in the VS Code terminal and got "Python was not found". I found out that on Windows python3 can just be a Microsoft Store shortcut. I fixed it by using python road_simulation.py instead.
+
+When I pushed my work to GitHub, I got "Repository not found". I had set up the remote but never created the repo on GitHub. I made an empty repo called lab1_aagbor-dev, ran git push again, and it worked.
